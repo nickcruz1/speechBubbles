@@ -1,0 +1,86 @@
+.title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem; 
+  margin: 1rem;
+  text-decoration: underline;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 20px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.johnBtn {
+  background-color: blue;
+  color: white;
+}
+
+.janeBtn {
+  background-color: red;
+  color: black;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.johnh2 {
+  color: blue;
+}
+
+.janeh2 {
+  color: red;
+}
+
+.bubbleContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.evenBubble {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 300px;
+  margin: 1rem 50% auto auto;
+  border: 2px solid blue;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.oddBubble {
+  border-radius: 10px;
+  width: 300px;
+  margin: 1rem auto auto 50%;
+  border: 2px solid red;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.timeStampJohn {
+  color: gray;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+.timeStampJane {
+  color: gray;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+  text-align: left;
+}
